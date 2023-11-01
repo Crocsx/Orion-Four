@@ -24,7 +24,7 @@
   <a
     aria-label={$_('i18n.Contact.PhoneNumber', { default: 'Phone Number' })}
     target="_blank"
-    class="ml-4 "
+    class="ml-4"
     href="tel:+8170-4148-5959">+8170-4148-5959</a
   >
 </div>

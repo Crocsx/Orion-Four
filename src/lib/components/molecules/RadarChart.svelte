@@ -3,7 +3,7 @@
 
   import type { RadarChartOptions } from '$lib/libs/radarChart';
   import { RadarChart } from '$lib/libs/radarChart';
-  import { SKILLS } from '$lib/constants/skill';
+  import { SKILL_ICONS } from '$lib/constants/skill';
   import { Skill } from '$lib/models/skill';
 
   let canvas: HTMLCanvasElement;
@@ -29,16 +29,16 @@
     };
 
     const labels = [
-      SKILLS.ICONS[Skill.C_SHARP],
-      SKILLS.ICONS[Skill.TYPESCRIPT],
-      SKILLS.ICONS[Skill.CSS_3],
-      SKILLS.ICONS[Skill.JAVASCRIPT],
-      SKILLS.ICONS[Skill.NODE_JS],
-      SKILLS.ICONS[Skill.ANGULAR],
-      SKILLS.ICONS[Skill.REACT],
-      SKILLS.ICONS[Skill.UNITY],
-      SKILLS.ICONS[Skill.UNREAL],
-      SKILLS.ICONS[Skill.C_PLUS_PLUS],
+      SKILL_ICONS[Skill.C_SHARP],
+      SKILL_ICONS[Skill.TYPESCRIPT],
+      SKILL_ICONS[Skill.CSS_3],
+      SKILL_ICONS[Skill.JAVASCRIPT],
+      SKILL_ICONS[Skill.NODE_JS],
+      SKILL_ICONS[Skill.ANGULAR],
+      SKILL_ICONS[Skill.REACT],
+      SKILL_ICONS[Skill.UNITY],
+      SKILL_ICONS[Skill.UNREAL],
+      SKILL_ICONS[Skill.C_PLUS_PLUS],
     ];
     labels.forEach((label) => {
       var img = new Image();

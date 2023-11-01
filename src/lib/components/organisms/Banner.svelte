@@ -3,6 +3,7 @@
 
   import { _ } from 'svelte-i18n';
   import Image from '$lib/components/atoms/Image.svelte';
+  import Profile from '$lib/assets/images/profile.jpg';
 
   let isMounted = false;
   onMount(() => {
@@ -18,7 +19,7 @@
         width="300"
         height="200"
         className="opacity-0 transition-opacity duration-500 rounded-full profile"
-        src="assets/images/profile.jpg"
+        src={Profile}
         alt={$_('i18n.Banner.ProfilePicAlt', { default: 'Giacomini Federico Portrait Picture' })}
       />
     </div>

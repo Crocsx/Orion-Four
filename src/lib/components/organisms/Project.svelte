@@ -19,7 +19,7 @@
       : 'flex-row text-left'} w-4/5 lg:w-3/5"
   >
     <div
-      class="inline-block mb-4 lg:mb-8 max-w-4/5 w-4/6 lg:w-3/6 border-0  rounded-full overflow-hidden {flip
+      class="inline-block mb-4 lg:mb-8 max-w-4/5 w-4/6 lg:w-3/6 border-0 rounded-full overflow-hidden {flip
         ? 'ml-12'
         : 'mr-12 '}"
     >

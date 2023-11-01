@@ -3,7 +3,7 @@
   import Fa from 'svelte-fa';
   import { faGamepad } from '@fortawesome/free-solid-svg-icons';
 
-  import type { ProjectName } from '$lib/models/projects';
+  import type { ProjectInfo, ProjectName } from '$lib/models/projects';
   import { getDeviceWidth } from '$lib/services/breakpoint.service';
   import { debounce } from '$lib/services/debounce.service';
   import Modal from '$lib/components/organisms/Modal.svelte';
@@ -11,12 +11,11 @@
   import DiagonalWrapper from '$lib/components/atoms/DiagonalWrapper.svelte';
   import Image from '$lib/components/atoms/Image.svelte';
   import Demo from '$lib/components/molecules/Demo.svelte';
-  import { PROJECTS } from '$lib/constants/projects';
-  import { SKILLS } from '$lib/constants/skill';
+  import { SKILL_ICONS } from '$lib/constants/skill';
   import { BREAKPOINTS } from '$lib/constants/breakpoints';
 
   export let projectName: ProjectName;
-  const projectInfo = PROJECTS[projectName];
+  export let projectInfo: ProjectInfo;
 
   let isDemoModalOpen = false;
   let isSlideshowModalOpen = false;
@@ -130,7 +129,7 @@
           <Image
             width="24"
             height="24"
-            src={SKILLS.ICONS[skill]}
+            src={SKILL_ICONS[skill]}
             alt="logo"
             className="w-12 h-12 rounded-lg {i > 0 ? 'ml-2' : ''}"
           />
