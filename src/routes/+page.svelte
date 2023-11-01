@@ -1,2 +1,17 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+    import ResumeButton from '$lib/components/atoms/ResumeButton.svelte';
+    import Banner from '$lib/components/organisms/Banner.svelte';
+    import About from '$lib/components/organisms/About.svelte';
+    import ProjectsList from '$lib/components/organisms/ProjectsList.svelte';
+</script>
+
+<section>
+    <div id="#home" />
+    <Banner />
+    <div id="#project" />
+    <ProjectsList />
+    <div id="#about" />
+    <About />
+    <ResumeButton />
+</section>
+  

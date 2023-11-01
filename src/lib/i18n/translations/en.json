@@ -1,0 +1,190 @@
+{
+  "i18n": {
+    "Header": {
+      "Title": "Giacomini \"Crocsx\" Federico"
+    },
+    "About": {
+      "Title": "About Me",
+      "DescriptionLine1": "Hello, my name is Federico \"Crocsx\" Giacomini, I'm a Game Developer and currently working as an UI Developer.",
+      "DescriptionLine2": "I love competitive Video Games, Languages, Travels, Racing, Music and a lot of other stuff. I currently live in Japan.",
+      "ThingsIKnowTitle": "Things I Know :",
+      "ContactTitle": "Contact Me At :",
+      "JoinMeTitle": "Join Me On :"
+    },
+    "Copyright": {
+      "RightsReserved": "All rights reserved.",
+      "Design": "Design Inspiration :",
+      "SourceAccess": "All projects are copyrighted and may not be reused without permission."
+    },
+    "Button": {
+      "Menu": "Menu",
+      "Back": "Back",
+      "LearnMore": "Learn More",
+      "MoreAbout": "More about {subject}"
+    },
+    "Banner": {
+      "Name": "Giacomini Federico",
+      "ProfilePicAlt": "Giacomini Federico portrait picture",
+      "Catch": "Game Developer & Designer - UI Developer"
+    },
+    "Playlist": {
+      "ButtonLabel": "Show Playlist",
+      "WidgetTitle": "Get to know me with music"
+    },
+    "ProjectList": {
+      "SmallProjectTitle": "Smaller Projects",
+      "SmallProjectDescription": "Following are minor projects, often unfinished; I show them anyway because they helped me widen my experience. :)"
+    },
+    "Page": {
+      "Project": {
+        "Description": "Description",
+        "Information": "Information",
+        "MadeWith": "Made With",
+        "HowToPlay": "How To Play",
+        "WhereToTry": "Where To Try",
+        "TryItHere": "Try It Here"
+      }
+    },
+    "Resume": {
+      "Download": "Download Resume"
+    },
+    "SlideShow": {
+      "VideoNotSupported": "Sorry, your browser doesn't support embedded videos."
+    },
+    "Enum": {
+      "Language": "{language, select,other {Unknown}EN {English}FR {Français}IT {Italiano}}"
+    },
+    "Contact": {
+      "WorkAddress": "Work Address",
+      "PhoneNumber": "Phone Number",
+      "EmailAddress": "Email Address"
+    },
+    "Social": {
+      "Github": "Github",
+      "StackOverflow": "Stack Overflow",
+      "Linkedin": "Linkedin",
+      "DevTo": "DevTo",
+      "TrueAchievement": "True Achievement",
+      "Steam": "Steam"
+    },
+    "Error": {
+      "Generic": "Something Went Wrong  :/"
+    },
+    "Demo": {
+      "LoadingWarning": "Some projects might take a while to load."
+    },
+    "Menu": {
+      "Teleport": "Teleport",
+      "Project": "Project",
+      "AboutMe": "About Me",
+      "Blog": "Blog",
+      "Home": "Home"
+    },
+    "Project": {
+      "Rush": {
+        "Title": "Rush",
+        "Date": "(2014)",
+        "CatchPhrase": "Lead your cubes to the right base by carefully choosing their path.",
+        "Description": "\"Rush\" is a simple 3D Puzzle Game inspired by the game with the same name on Steam. Lead your colourful cubes to the right base by carefully putting your special slab and without losing any of them by colliding with each other or falling out of the map.",
+        "Information": "\"Rush\" was made on my own using Unity in 2014. It was my first experience with Unity, in fact, the purpose  of the project was to understand better the engine and how it works.",
+        "HowToPlay": "Use the Conveyor granted to you on each level to guide the cubes to the base of the same color."
+      },
+      "AnyX": {
+        "Title": "AnyX",
+        "Date": "(current)",
+        "CatchPhrase": "Streamline management, optimization and tracking across your e-commerce & D2C channels into a single platform",
+        "Description": "\"AnyX\" enables you to drive greater operational efficiency and data utilization across e-commerce channels through a one-stop, powerful and intuitive tool for forward-thinking businesses.",
+        "Information": "\"AnyX\" is my current project. I was assigned as Front-End lead and currently handling everything from deployment, teams task, code quality and most of the decision making on the Front-End side. It is my first experience as a Lead and I am very thankful to have this occasion.",
+        "HowToPlay": "Streamline management, optimization and tracking across your e-commerce & D2C channels into a single platform"
+      },
+      "Anylogi": {
+        "Title": "Anylogi",
+        "Date": "(2021)",
+        "CatchPhrase": "Logistics Management Platform for D2C",
+        "Description": "\"Anylogi\" is an end-to-end solution that enables D2C and e-commerce merchants to integrate fulfillment process through our international network of e-commerce shopping carts and logistics partners.",
+        "Information": "\"Anylogi\" is one of my biggest work project where I worked alone as a front end engineer. Thank to it, I improved a lot in Angular over the course of 2020/21, and this project is where I put all my knowledge to use. It is my \"cleanest\" (^^) code to date and my first PWA",
+        "HowToPlay": "Create an account, manage your stores, inventories, deliveries and orders"
+      },
+      "Trajectory": {
+        "Title": "Trajectory",
+        "Date": "(2019)",
+        "CatchPhrase": "Flight Control application for remote operation of UAV",
+        "Description": "\"Trajectory\" is a flight control system where you are able to track, operate, and mantain drones remotely over the web. Using the app, you can assign missions, set point of interest, directly control the UAV and a lot more.",
+        "Information": "\"Trajectory\" is the biggest professional project I had the chance to work on. I am delighted to have worked on this project as it was a refreshing project and extremely interesting. I could create the front end application from the start which helped me solidify my knowledge of Angular, and produce a solid and stable code.",
+        "HowToPlay": "Operate, Track, Maintain your UAV wherever you are"
+      },
+      "DogsRebellion": {
+        "Title": "Dogs Rebellion",
+        "Date": "(2014)",
+        "CatchPhrase": "You are tired of having \"a dog life\" and of your master. Let's start a great escape from the neighborhood",
+        "Description": "\"Dog's Rebellion\" is a side scroller SHMUP where you play a little dog in a very colourful universe. He wants to escape the boredom of his life and he will try to escape the neighborhood full of cats and veterinaries. But one final thing will try to stop him from being free.",
+        "Information": "\"Dog's Rebellion\" is one of my first games and even if it's just one level I really enjoy the result especially thanks to the awesome graphics of Marina Tsuzuki. It helped me understand much better Javascript and canvas. The key feature of the game is the ability to control your bullet using the right stick of a control.",
+        "HowToPlay": "You control a dog with some special abilities and you must survive until you defeat the big boss (the Granny!)"
+      },
+      "DigFall": {
+        "Title": "Dig Fall",
+        "Date": "(2015)",
+        "CatchPhrase": "Dig in order to find the treasure ! But be careful at what you can find behind a rock !",
+        "Description": "\"Digfall\" is a sort of vertical Runner. You play a diver that wants to reach the treasure before he lacks of oxygen. In order to reach it, you must dig your way through the differents layers, but be careful at what you can find by digging. Some underwater creatures are dangerous!",
+        "Information": "\"Digfall\" was made during the Gameweek in 2015.",
+        "HowToPlay": "The diver will move from left to right alone, double tap on a block of sand in order to remove it and let your diver jump down."
+      },
+      "Atrakcja": {
+        "Title": "Atrakcja",
+        "Date": "(2015)",
+        "CatchPhrase": "Defeat hordes of enemy by carefully placing turrets and using gravity at your advantage !",
+        "Description": "\"Atrakcja\" is an experimental Tower Defense. You have a very small amount of turrets, but a big amount of tools that help you modify the turret shooting by using gravity. Also, the enemy are smart, and modify their road if they see the actual path is dangerous. You must place everything carefully.",
+        "Information": "\"Atrakcja\" was a school project of 2014. Even if it isn't completed and quite buggy, it is full of work behind the scenes. For example, the AI can understand which path is dangerous by analyzing where and why the previous wave died. That was the core of the experience; compared to other tower defense where the goal is just to lock the path and upgrade towers, in Atrakcja you have to always rework the direction where your tower shoots.",
+        "HowToPlay": "Place towers and modifiers in order to defend your core from the enemies."
+      },
+      "Insanity": {
+        "Title": "Insanity",
+        "Date": "(2016)",
+        "CatchPhrase": "After receiving a brain surgery in an illegal hospital you wake up with awesome power but your past troubles you. Don't give up to madness !",
+        "Description": "\"Insanity\", is a third-person survival horror game, on the theme of madness. After brain surgery, the main character discovers his ability to possess other people but slips slowly into atrocious nightmares. Physically weakened, he tries to escape from the secret scientific lab he's being detained in.",
+        "Information": "\"Insanity\" is the biggest game I made for the moment. We were a big team of 9 persons (4 artists, 2 programmers, 2 designers and 1 sound designer). It is the final school project and we worked on it for 6 entire months. It is also my first Unreal project and it helped me understand much better then engine peculiarities and blueprints.",
+        "HowToPlay": "Escape the hospital avoiding your nightmare and by controlling people you don't need."
+      },
+      "Fortis": {
+        "Title": "Fortis",
+        "Date": "(2014)",
+        "CatchPhrase": "It's time of war ! Protect our fortress and push the contenders out!",
+        "Description": "\"Fortis\" is a tactical turn based game set in a medieval universe. You can't kill enemies directly, the only way to put them out of the game is by pushing them against each other or by using the obastacles on the map. Each creature has different abilities and they will all be useful in the battle.",
+        "Information": "\"Fortis\" was made during the GameWeek of 2014, sadly the project was to big for the time we had and was never finished. The GameWeek 2014 was one of my first Game Jam, and this project made me learn that JAMs are places for small games ^^.",
+        "HowToPlay": "Control your squad and push enemies against a character in order to eliminate him."
+      },
+      "I01": {
+        "Title": "Installation 01",
+        "Date": "(2023)",
+        "CatchPhrase": "Installation 01 is the fan-made Halo game created by Halo lovers from around the world under the banner of Soon Studios.",
+        "Description": "\"Installation 01\" is a fan game in the Halo Universe that aim to create a new Halo experience as a tribute to the series by using a combination of what we believe to be the best parts of the classic Halo games.",
+        "Information": "I currently joined this project and try to work a bit on my free time. Halo is my favorite game franchise, and working on such project is a dream come true. I am still very fresh in game world as I mainly focus on web in the past years, and Unreal 5 is such a new thing for me so I am taking it slow but learning a lot !",
+        "HowToPlay": "Games coming soon™"
+      },
+      "Hurt": {
+        "Title": "Hurt",
+        "Date": "(2014)",
+        "CatchPhrase": "Help poor people by giving them a little of your money, or be robbed for beeing greedy!",
+        "Description": "\"Hurt\" is a game where you play a rich person, harassed by poor people. You must give some of your money or they will steal much more from you. But don't give too much or you will be poor too.",
+        "Information": "\"Hurt\" was made during the Mozilla Game Jam 2015, in the Mozilla office in Paris. The game is fully made in HTML using canvas and it was a really great experience.",
+        "HowToPlay": "Point to homeless people coming to you, throw them some money by clicking and see them a little happier :)"
+      },
+      "SugarFight": {
+        "Title": "Sugar Fight",
+        "Date": "(2015)",
+        "CatchPhrase": "Two sugar fight on over a rusk. No one want to disappear in the tea. Push the other in or it will be you! ",
+        "Description": "\"Sugar Fight\" is a Smash Bross like game. You play one sugar lump thrown in a cup of tea with another sugar and kept alive by a rusk. If one falls, he will dissolve into tea and disappear. So stay alive ! Kick and punch your rival and push him out of the rusk.",
+        "Information": "\"Sugar Fight\" was made during the GameWeek 2016 using Unity. I had never done a fighting game before and it was really funny to make. ",
+        "HowToPlay": "Kick the other sugar lump using your abilities and don't fall in the tea."
+      },
+      "SneakySnake": {
+        "Title": "Sneaky Snake",
+        "Date": "(2016)",
+        "CatchPhrase": "Fill your belly with all those tasty sheep ! But be careful ! the shepherds are searching for you !",
+        "Description": "There is no much food left for a little snake... Hopefully some shepherds loves to take their herd of sheep over your lair. Eat them all without getting caught!! \"Sneaky Snake\" is a little mobile game based on hiding using the mechanism of digging. Go underground, you are safe, but you can't eat and see, get out, you will be able to eat, but shepherds will attack you. ",
+        "Information": "This little game was done in a game JAM but in Japan! My mate programmer couldn't speak english, and same for me in japanese, so it was really funny and hard to understand each other ^^.",
+        "HowToPlay": "Move underground and get outside just to eat. Be aware of the shepherds."
+      }
+    }
+  }
+}

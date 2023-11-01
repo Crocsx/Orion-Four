@@ -1,0 +1,190 @@
+{
+  "i18n": {
+    "Header": {
+      "Title": "Giacomini \"Crocsx\" Federico"
+    },
+    "About": {
+      "Title": "Su di me",
+      "DescriptionLine1": "Ciao, mi chiamo Federico \"Crocsx\" Giacomini, sono un Game Developer e attualmente lavoro come UI Developer.",
+      "DescriptionLine2": " Amo i videogiochi competitivi, le lingue, i viaggi, le corse, la musica e molte altre cose. Attualmente vivo in Giappone.",
+      "ThingsIKnowTitle": "Le mie Abilità :",
+      "ContactTitle": "Contattami :",
+      "JoinMeTitle": "Seguimi su :"
+    },
+    "Copyright": {
+      "RightsReserved": "Tutti i diritti riservati.",
+      "Design": "Design Inspirato da :",
+      "SourceAccess": "Tutti i progetti sono protetti da copyright e non possono essere riutilizzati senza autorizzazione."
+    },
+    "Button": {
+      "Menu": "Menu",
+      "Back": "Ritorno",
+      "LearnMore": "Saperne di più",
+      "MoreAbout": "Saperne di più su {subject}"
+    },
+    "Banner": {
+      "Name": "Giacomini Federico",
+      "ProfilePicAlt": "Giacomini Federico foto profilo",
+      "Catch": "Game Developer & Designer - UI Developer"
+    },
+    "Playlist": {
+      "ButtonLabel": "Mostra Playlist",
+      "WidgetTitle": "Conoscimi tramite musica"
+    },
+    "ProjectList": {
+      "SmallProjectTitle": "Piccoli Progetti",
+      "SmallProjectDescription": "Seguono progetti minori, spesso incompiuti; Li mostro comunque perché mi hanno aiutato ad ampliare la mia esperienza. :)"
+    },
+    "Page": {
+      "Project": {
+        "Description": "Descrizione",
+        "Information": "Informazione",
+        "MadeWith": "Fatto Con",
+        "HowToPlay": "Come Usarlo",
+        "WhereToTry": "Dove Provarlo",
+        "TryItHere": "Provalo Qui"
+      }
+    },
+    "Resume": {
+      "Download": "Scarica curriculum"
+    },
+    "SlideShow": {
+      "VideoNotSupported": "Spiacenti, il tuo browser non supporta i video incorporati."
+    },
+    "Enum": {
+      "Language": "{language, select,other {Unknown}EN {English}FR {Français}IT {Italiano}}"
+    },
+    "Contact": {
+      "WorkAddress": "Indirizzo di lavoro",
+      "PhoneNumber": "Numero di telefono",
+      "EmailAddress": "Indirizzo e-mail"
+    },
+    "Social": {
+      "Github": "Github",
+      "StackOverflow": "Stack Overflow",
+      "Linkedin": "Linkedin",
+      "DevTo": "DevTo",
+      "TrueAchievement": "True Achievement",
+      "Steam": "Steam"
+    },
+    "Error": {
+      "Generic": "Qualcosa è andato storto  :/"
+    },
+    "Demo": {
+      "LoadingWarning": "Il caricamento di alcuni progetti potrebbe richiedere del tempo."
+    },
+    "Menu": {
+      "Teleport": "Teletrasporto",
+      "Project": "Progetti",
+      "AboutMe": "Su di Me",
+      "Blog": "Blog",
+      "Home": "Home"
+    },
+    "Project": {
+      "Rush": {
+        "Title": "Rush",
+        "Date": "(2014)",
+        "CatchPhrase": "Guida i tuoi cubi alla base giusta scegliendo attentamente il loro percorso.",
+        "Description": "\"Rush\" è un semplice Puzzle Game 3D ispirato all'omonimo gioco su Steam. Guida i tuoi cubi colorati fino alla base giusta posizionando con cura i trasportatore proposti. Attento a non scontrarli o farli cadere nel vuoto !",
+        "Information": "\"Rush\" è stato realizzato da solo utilizzando Unity nel 2014. È stata la mia prima esperienza con Unity, infatti, lo scopo del progetto era approfondire le mie conoscenze sul motore grafico.",
+        "HowToPlay": "Usa il trasportatore che ti è stato concesso in ogni livello per guidare i cubi alla base dello stesso colore."
+      },
+      "Trajectory": {
+        "Title": "Trajectory",
+        "Date": "(2019)",
+        "CatchPhrase": "Applicazione di controllo del volo per il funzionamento a distanza di UAV",
+        "Description": "\"Trajectory\" è un sistema di controllo di volo in cui puoi tracciare, comandare e mantenere una flotta di droni in remoto sul web. Utilizzando l'app, puoi assegnare missioni, impostare punti di interesse, manipolare direttamente l'UAV e molto altro.",
+        "Information": "\"Trajectory\" è il più grande progetto professionale su cui ho avuto la possibilità di lavorare. Sono felice di aver lavorato su questo progetto perché è un argomento estremamente interessante. Ho potuto creare l'interfaccia web dall'inizio, cio che mi ha aiutato a consolidare la mia conoscenza di Angular e produrre un codice solido e stabile.",
+        "HowToPlay": "Gestisci, controlla, mantieni i tuoi UAV ovunque tu sia"
+      },
+      "Anylogi": {
+        "Title": "Anylogi",
+        "Date": "(2021)",
+        "CatchPhrase": "Piattaforma di gestione logistica per D2C",
+        "Description": "\"Anylogi\" è una soluzione end-to-end che consente ai commercianti D2C ed e-commerce di integrare il processo di gestione ordini tramite la nostra rete di e-market e partner logistici.",
+        "Information": "\"Anylogi\" è uno dei miei più grandi progetti di lavoro in cui ho lavorato da solo come ingegnere front-end. Grazie ad esso, sono migliorato molto in Angular nel corso del 2020/21 e in questo progetto ho messo a frutto tutte le mie conoscenze. È il mio codice \"più pulito\" (^^) fino ad oggi e la mia prima PWA",
+        "HowToPlay": "Create an account, manage your stores, inventories, deliveries and orders"
+      },
+      "AnyX": {
+        "Title": "AnyX",
+        "Date": "(actuel)",
+        "CatchPhrase": "Semplifica la gestione, l'ottimizzazione e il monitoraggio dei tuoi canali di e-commerce e D2C su una singola piattaforma",
+        "Description": "\"AnyX\" ti consente di aumentare l'efficienza operativa e l'utilizzo dei dati sui canali di e-commerce attraverso uno strumento unico, potente e intuitivo per le aziende.",
+        "Information": "\"AnyX\" è il mio progetto attuale. Sono stato assegnato come responsabile Front-End e attualmente mi occupo di tutto, dallo sviluppo alla distribuzione dei compiti, dalla qualità del codice alla maggior parte delle decisioni lato Front-End. È la mia prima esperienza come Lead e sono molto grato di avere questa opportunità.",
+        "HowToPlay": "Semplifica la gestione, l'ottimizzazione e il monitoraggio dei tuoi canali di e-commerce e D2C su una singola piattaforma"
+      },
+      "DogsRebellion": {
+        "Title": "Dogs Rebellion",
+        "Date": "(2014)",
+        "CatchPhrase": "Sei stanco di \"fare una vita da cani\" e del tuo padrone. Inizia la grande fuga dal quartiere",
+        "Description": "\"Dog's Rebellion\" è uno scroller laterale SHMUP in cui interpreti un cagnolino in un universo molto colorato. Vuole sfuggire alla noia della sua vita e fuggire da una quartiere pieno di gatti e veterinari. Ma riuscirà a passare tutti gli ostacoli ?",
+        "Information": "\"Dog's Rebellion\" è uno dei miei primi giochi e anche se composto da un solo livello sono molto contento del risultato, soprattutto grazie alla fantastica grafica di Marina Tsuzuki. Mi ha aiutato a capire molto meglio Javascript e disegnare su Canvas. La caratteristica chiave del gioco è la possibilità di controllare il tuo proiettile usando la levetta destra di un controllo.",
+        "HowToPlay": "Controlli un cane con alcune abilità speciali e devi sopravvivere fino a quando non sconfiggi il capo del quartiere (la nonna!)"
+      },
+      "DigFall": {
+        "Title": "Dig Fall",
+        "Date": "(2015)",
+        "CatchPhrase": "Scava per trovare il tesoro! Ma fai attenzione a cosa puoi trovare dietro una roccia!",
+        "Description": "\"Digfall\" è una sorta di \"runner\" in verticale. Incarni un subacqueo che vuole raggiungere il tesoro prima che gli manchi l'ossigeno. Per raggiungerlo, devi scavare attraverso diversi livelli, ma fai attenzione a ciò che puoi trovare scavando. Alcune creature sottomarine sono pericolose!",
+        "Information": "\"Digfall\" è stato realizzato durante la Gameweek nel 2015.",
+        "HowToPlay": "Il subacqueo si sposterà da sinistra a destra da solo, tocca due volte un blocco di sabbia per rimuoverlo e lasciati cadere al livello inferiore."
+      },
+      "Atrakcja": {
+        "Title": "Atrakcja",
+        "Date": "(2015)",
+        "CatchPhrase": "Sconfiggi orde di nemici posizionando con cura le tue e usando la gravità a tuo vantaggio!",
+        "Description": "\"Atrakcja\" è un \"Tower Defense\" sperimentale. Hai una quantità molto bassa di torrette, ma molti strumenti che ti aiutano a modificare le proprietà dei tuoi tiri usando la gravità. Inoltre, i nemici sono intelligenti e modificano la loro strada se vedono che il percorso diventa troppo pericoloso. Devi posizionare tutto con cura.",
+        "Information": "\"Atrakcja\" era un progetto scolastico del 2014. Anche se non è completato e pieno di bug, è pieno di lavoro dietro le quinte. Ad esempio, l'IA può capire quale percorso è pericoloso e come le altre unita siano state sconfitte nelle fasi precendenti. Questo era il centro dell'esperienza; rispetto ad altre \"Tower Defense\" in cui l'obiettivo è solo quello di bloccare il percorso e aumentare la potenza delle torette, in Atrakcja devi sempre gestire tutto al meglio con il poco che hai.",
+        "HowToPlay": "Posiziona torrette e modificatori per difendere il tuo nucleo dai nemici."
+      },
+      "Insanity": {
+        "Title": "Insanity",
+        "Date": "(2016)",
+        "CatchPhrase": "Dopo aver subito un intervento chirurgico al cervello in un ospedale illegale, ti svegli con un potere incredibile ma un passato tormentoso. Non cedere alla follia !",
+        "Description": "\"Insanity\", è un gioco horror e sopravvivenza in terza persona, sul tema della follia. Dopo un intervento chirurgico al cervello, il personaggio principale scopre la sua capacità di possedere altre persone ma scivola lentamente in atroci incubi. Fisicamente indebolito, cerca di fuggire dal laboratorio scientifico segreto in cui è detenuto.",
+        "Information": "\"Insanity\" è il gioco più grande che ho realizzato al momento. Eravamo una grande squadra di 9 persone (4 artisti, 2 programmatori, 2 designer e 1 sound designer) e fu il progetto scolastico finale su cui abbiamo lavorato per 6 mesi. È anche il mio primo progetto usando Unreal e mi ha aiutato a capire molto meglio le peculiarità e i \"blueprint\" del motore grafico.",
+        "HowToPlay": "Fuggi dall'ospedale senza cedere hai tuoi incubi e controllando le persone di cui non hai bisogno."
+      },
+      "Fortis": {
+        "Title": "Fortis",
+        "Date": "(2014)",
+        "CatchPhrase": "È tempo di guerra! Proteggi la tua fortezza e scaccia i contendenti!",
+        "Description": "\"Fortis\" è un gioco tattico a turni ambientato in un universo medievale. Non puoi sconffigere i nemici direttamente, l'unico modo per metterli fuori gioco è spingerli l'uno contro l'altro o usare gli ostaccoli sulla mappa. Ogni creatura ha abilità diverse e saranno tutte utili nella battaglia.",
+        "Information": "\"Fortis\" è stato realizzato durante la GameWeek del 2014, purtroppo il progetto era troppo grande per il tempo che avevamo e non è mai stato terminato. La GameWeek 2014 è stata una delle mie prime Game Jam e questo progetto mi ha fatto capire che le JAM sono luoghi per giochi meno ambiziosi ^^.",
+        "HowToPlay": "Controlla la tua armata e spingi i nemici tra di loro per eliminarli."
+      },
+      "Hurt": {
+        "Title": "Hurt",
+        "Date": "(2014)",
+        "CatchPhrase": "Aiuta i poveri dando loro un po' dei tuoi soldi, o fatti derubare per essere troppo avido !",
+        "Description": "\"Hurt\" è un gioco in cui interpreti una persona ricca a qui tutti chiedono soldi. Devi essere generoso o ti ruberanno molto di più. Ma non troppo o sarai povero anche tu.",
+        "Information": "\"Hurt\" è stato realizzato durante la Mozilla Game Jam 2015, negli uffici di Mozilla a Parigi. Il gioco è completamente realizzato in HTML utilizzando canvas ed è stata un'esperienza davvero fantastica.",
+        "HowToPlay": "Da soldi hai senzatetto che vengono da te, lascia loro qualche soldi facendo clic su di loro e guardali diventare un po' più felici :)"
+      },
+      "SugarFight": {
+        "Title": "Sugar Fight",
+        "Date": "(2015)",
+        "CatchPhrase": "Due zuccheri litigano su una fetta biscottata. Nessuno vuole cadere nel tè. Spingi l'altro o caderai tu!",
+        "Description": "\"Sugar Fight\" è un gioco simile a Smash Bross. Giochi una zolletta di zucchero gettata in una tazza di tè con un altro zucchero e mantenuta in vita da una fetta biscottata. Se cadi, ti dissolverai nel tè e scomparirai. Quindi resta vivo! Calcia e e spingi il tuo rivale fuori dalla fetta biscottata.",
+        "Information": "\"Sugar Fight\" è stato realizzato durante la GameWeek 2016 utilizzando Unity. Non avevo mai fatto un gioco di combattimento prima ed è stato davvero divertente da realizzare.",
+        "HowToPlay": "Calcia l'altra zolletta di zucchero usando le tue abilità e sopratutto non cadere nel tè."
+      },
+      "I01": {
+        "Title": "Installation 01",
+        "Date": "(2023)",
+        "CatchPhrase": "Installation 01 è il gioco fan-made di Halo creato da appassionati di Halo di tutto il mondo sotto l'egida di Soon Studios.",
+        "Description": "\"Installation 01\" è un gioco fan nell'universo di Halo che propone di creare una nuova esperienza di Halo come omaggio alla serie utilizzando una combinazione di ciò che riteniamo essere le migliori parti dei classici giochi di Halo.",
+        "Information": "Mi sono unito di recente a questo progetto e cerco di lavorarci un po' nel mio tempo libero. Halo è la mia serie di video giochi preferita e lavorare su un progetto del genere è un sogno che si avvera. Sono ancora nuovo nel mondo dei giochi poiché mi sono principalmente concentrato sul web negli ultimi anni, e Unreal 5 è una cosa completamente nuova per me, quindi sto procedendo lentamente ma sto imparando molto!",
+        "HowToPlay": "Giochi in arrivo presto™"
+      },
+      "SneakySnake": {
+        "Title": "Sneaky Snake",
+        "Date": "(2016)",
+        "CatchPhrase": "Riempiti la pancia con tutte queste gustose pecorelle! Ma fa attenzione ! I pastori ti danno la caccia !",
+        "Description": "Non è rimasto molto cibo per un piccolo serpente... Per fortuna qualche pastore porta i greggi a pascolare vicino alla tua tana. Mangia tutte le loro pecora, ma senza essere scoperto !! \"Sneaky Snake\" è un piccolo gioco per cellulare basato sul idea di nascondersi scavando buchi. Se sei sottoterra, sei al sicuro, ma non puoi mangiare ne vedere, riemergi dalla terra e potrai vedere e mangiage, ma i pastori ti attaccheranno !",
+        "Information": "Questo piccolo gioco è stato fatto durante una JAM in Giappone! Il mio compagno programmatore non parlava inglese, ed io non giapponese, quindi è stato davvero divertente e difficile capirsi ^^.",
+        "HowToPlay": "Spostati sottoterra ed esci solo per mangiare. Rimani allerta, i pastori sono vicini!"
+      }
+    }
+  }
+}
