@@ -3,9 +3,10 @@
   import Fa from 'svelte-fa';
   import { faBars, faCaretSquareLeft } from '@fortawesome/free-solid-svg-icons';
 
+  import { page } from '$app/stores';
   import Modal from '$lib/components/organisms/Modal.svelte';
   import Menu from '$lib/components/organisms/Menu.svelte';
-  import { afterUpdate } from 'svelte';
+  import { afterNavigate } from '$app/navigation';
 
   let isHomepage = true;
   let isMenuOpen = false;
@@ -21,13 +22,16 @@
   let scrollY = 0;
   let screenSizeX = 0;
   let screenSizeY = 0;
-  let previousRoute = location?.pathname;
+  let previousRoute = $page.url.pathname;
 
-  afterUpdate(() => {
-    if (location?.pathname === previousRoute) {
-      isHomepage = location?.pathname === '/';
+  afterNavigate(() => {
+    if ($page.url.pathname !== previousRoute) {
+      isHomepage = $page.url.pathname === '/';
     }
+    previousRoute = $page.url.pathname;
   });
+
+  console.log(isHomepage);
 </script>
 
 <svelte:window bind:scrollY bind:innerHeight={screenSizeY} bind:innerWidth={screenSizeX} />

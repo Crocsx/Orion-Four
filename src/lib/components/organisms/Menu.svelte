@@ -5,10 +5,21 @@
   import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
   import LanguagesPicker from '$lib/components/molecules/LanguagesPicker.svelte';
+  import type { MouseEventHandler } from 'svelte/elements';
 
   const dispatch = createEventDispatcher();
 
-  function clickMenuOption() {
+  function clickMenuOption(event: MouseEvent) {
+    event.preventDefault();
+    const link = event.currentTarget as HTMLAnchorElement;
+    if (link) {
+      const anchorId = new URL(link.href).hash;
+      const anchor = document.getElementById(anchorId);
+      window.scrollTo({
+        top: anchor?.offsetTop,
+        behavior: 'smooth',
+      });
+    }
     dispatch('click');
   }
 </script>
