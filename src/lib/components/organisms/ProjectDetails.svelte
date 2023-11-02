@@ -38,9 +38,13 @@
 
 <svelte:window on:resize={debounce(checkResize, 100)} />
 
+<svelte:head>
+  <title>F.Giacomini - {projectName}</title>
+</svelte:head>
+
 <article
   style="background-image: url({projectInfo.background});"
-  class="lg:pb-48 lg:pt-48 pt-20 pb-16 bg-cover bg-no-repeat"
+  class="lg:pb-48 lg:pt-48 pt-20 pb-16 bg-cover bg-no-repeat bg-blue-4"
 >
   <header class="mx-0 lg:mx-auto lg:w-5/6 max-w-5xl pb-16 lg:px-0 px-8">
     <h2
@@ -59,13 +63,13 @@
     <div class="flex mt-4 mx-0 lg:mx-auto lg:w-5/6 max-w-5xl pb-8 lg:px-0 mb-4 lg:mb-0 px-8">
       {#if isMobile}
         {#each projectInfo.illustrationSmall as illustrationSrc, i}
-          <button on:click={() => openSlideshowModal(i)} class="rounded px-4 cursor-pointer">
+          <button on:click={() => openSlideshowModal(i)} class="w-full rounded px-4 cursor-pointer">
             <Image
               width="300"
               height="200"
               src={illustrationSrc}
               alt="logo"
-              className="w-full h-full rounded-lg"
+              class="w-full h-full rounded-lg"
             />
           </button>
         {/each}
@@ -98,28 +102,30 @@
         {$_(`i18n.Project.${projectName}.HowToPlay`, { default: `${projectName} How To Play` })}
       </p>
     </section>
-    <section class="mx-0 lg:mx-auto lg:w-5/6 max-w-5xl pb-8 lg:px-0 px-8">
-      <h2 class="text-lg tracking-widest pb-4 border-b-2 mb-4 border-white border-opacity-10">
-        {$_(`i18n.Page.Project.WhereToTry`, { default: 'Where To Play' })}
-      </h2>
-      {#if projectInfo.demo.openTab}
-        <a
-          class="flex items-center transition-opacity duration-200 hover:opacity-80 font-bold"
-          target="_blank"
-          rel="noreferrer"
-          href={projectInfo.demo.url}
-          ><Fa class="mr-2" size="lg" icon={faGamepad} />
-          {$_(`i18n.Page.Project.TryItHere`, { default: 'Play It Here' })}</a
-        >
-      {:else}
-        <button
-          class="flex items-center transition-opacity duration-200 hover:opacity-80 font-bold"
-          on:click={openDemoModal}
-          ><Fa class="mr-2" size="lg" icon={faGamepad} />
-          {$_(`i18n.Page.Project.TryItHere`, { default: 'Play It Here' })}</button
-        >
-      {/if}
-    </section>
+    {#if projectInfo.demo.url}
+      <section class="mx-0 lg:mx-auto lg:w-5/6 max-w-5xl pb-8 lg:px-0 px-8">
+        <h2 class="text-lg tracking-widest pb-4 border-b-2 mb-4 border-white border-opacity-10">
+          {$_(`i18n.Page.Project.WhereToTry`, { default: 'Where To Play' })}
+        </h2>
+        {#if projectInfo.demo.openTab}
+          <a
+            class="flex items-center transition-opacity duration-200 hover:opacity-80 font-bold"
+            target="_blank"
+            rel="noreferrer"
+            href={projectInfo.demo.url}
+            ><Fa class="mr-2" size="lg" icon={faGamepad} />
+            {$_(`i18n.Page.Project.TryItHere`, { default: 'Play It Here' })}</a
+          >
+        {:else}
+          <button
+            class="flex items-center transition-opacity duration-200 hover:opacity-80 font-bold"
+            on:click={openDemoModal}
+            ><Fa class="mr-2" size="lg" icon={faGamepad} />
+            {$_(`i18n.Page.Project.TryItHere`, { default: 'Play It Here' })}</button
+          >
+        {/if}
+      </section>
+    {/if}
     <section class="mx-0 lg:mx-auto lg:w-5/6 max-w-5xl pb-8 lg:px-0 px-8">
       <h2 class="text-lg tracking-widest pb-4 border-b-2 mb-4 border-white border-opacity-10">
         {$_(`i18n.Page.Project.MadeWith`, { default: 'Made With' })}
@@ -127,11 +133,11 @@
       <div class="flex">
         {#each projectInfo.madeWith as skill, i}
           <Image
-            width="24"
-            height="24"
+            width="48"
+            height="48"
             src={SKILL_ICONS[skill]}
             alt="logo"
-            className="w-12 h-12 rounded-lg {i > 0 ? 'ml-2' : ''}"
+            class="w-12 h-12 rounded-lg {i > 0 ? 'ml-2' : ''}"
           />
         {/each}
       </div>

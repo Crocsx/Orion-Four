@@ -131,7 +131,6 @@ export const PROJECTS = {
     madeWith: [Skill.UNITY],
     demo: {
       openTab: false,
-      url: 'assets/project/rush/index.html',
     },
   },
   [ProjectName.TRAJECTORY]: {
@@ -153,7 +152,6 @@ export const PROJECTS = {
     madeWith: [Skill.JAVASCRIPT, Skill.HTML_5],
     demo: {
       openTab: false,
-      url: 'assets/project/dogsrebellion/index.html',
     },
   },
   [ProjectName.I01]: {
@@ -197,7 +195,6 @@ export const PROJECTS = {
     madeWith: [Skill.UNITY],
     demo: {
       openTab: false,
-      url: 'assets/project/digfall/digfall.html',
     },
   },
   [ProjectName.ATRAKCJA]: {
@@ -208,7 +205,6 @@ export const PROJECTS = {
     madeWith: [Skill.JAVASCRIPT],
     demo: {
       openTab: false,
-      url: 'assets/project/atrakcja/index.html',
     },
   },
   [ProjectName.INSANITY]: {
@@ -230,7 +226,6 @@ export const PROJECTS = {
     madeWith: [Skill.HTML_5, Skill.CSS_3, Skill.JAVASCRIPT],
     demo: {
       openTab: false,
-      url: 'assets/project/fortis/index.html',
     },
   },
   [ProjectName.HURT]: {
@@ -241,7 +236,6 @@ export const PROJECTS = {
     madeWith: [Skill.HTML_5, Skill.JAVASCRIPT],
     demo: {
       openTab: false,
-      url: 'assets/project/hurt/index.html',
     },
   },
   [ProjectName.SUGAR_FIGHT]: {
@@ -252,7 +246,6 @@ export const PROJECTS = {
     madeWith: [Skill.UNITY],
     demo: {
       openTab: false,
-      url: 'assets/project/sugarfight/index.html',
     },
   },
   [ProjectName.SNEAKY_SNAKE]: {
@@ -263,7 +256,6 @@ export const PROJECTS = {
     madeWith: [Skill.UNITY],
     demo: {
       openTab: false,
-      url: 'assets/project/sneakysnake/index.html',
     },
   },
 } as Record<ProjectName, ProjectInfo>;

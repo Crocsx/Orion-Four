@@ -35,13 +35,7 @@
           : 'visible'}"
       >
         {#if getFileType(media) === FileTypes.IMAGE}
-          <Image
-            width="300"
-            height="200"
-            src={media}
-            className="w-11/12"
-            alt="Project Illustration"
-          />
+          <Image width="300" height="200" src={media} class="w-11/12" alt="Project Illustration" />
         {:else}
           <video controls>
             <source src={media} type="video/mp4" />

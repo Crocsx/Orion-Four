@@ -15,10 +15,11 @@
   <div class="mx-0 lg:mx-auto lg:w-4/6 max-w-4xl">
     <div class="mb-5">
       <Image
-        style={isMounted ? 'opacity: 100;' : ''}
         width="300"
-        height="200"
-        className="opacity-0 transition-opacity duration-500 rounded-full profile"
+        height="300"
+        class={`${
+          isMounted ? 'opacity-1' : 'opacity-0'
+        } transition-opacity duration-500 rounded-full w-72 profile`}
         src={Profile}
         alt={$_('i18n.Banner.ProfilePicAlt', { default: 'Giacomini Federico Portrait Picture' })}
       />

@@ -20,7 +20,7 @@
   <Image
     width="300"
     height="200"
-    className="image mb-4 w-full"
+    class="image mb-4 w-full"
     src={PROJECTS[projectName].logo}
     alt={`${projectName} logo`}
   />

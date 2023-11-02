@@ -1,8 +1,11 @@
 <script lang="ts">
   import ProjectDetails from '$lib/components/organisms/ProjectDetails.svelte';
-  import type { ProjectInfo, ProjectName } from '$lib/models/projects';
+  import { page } from '$app/stores';
+  import { PROJECTS } from '$lib/constants/projects';
+  import type { ProjectName } from '$lib/models/projects';
 
-  export let data: { name: ProjectName; info: ProjectInfo };
+  const projectName = $page.params.slug as ProjectName;
+  const projectInfo = PROJECTS[projectName];
 </script>
 
-<ProjectDetails projectName={data.name} projectInfo={data.info} />
+<ProjectDetails {projectName} {projectInfo} />

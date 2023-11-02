@@ -7,6 +7,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "npm run test:integration && npm run test:unit",
+    "firebase:deploy": "npm run build && firebase deploy",
+    "firebase:preview": "npm run build && firebase hosting:channel:deploy \"orion-test\"",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "prettier --plugin-search-dir . --check . && eslint .",
@@ -16,7 +18,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.28.1",
-    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/adapter-static": "^2.0.3",
     "@sveltejs/kit": "^1.20.4",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
@@ -41,8 +43,9 @@
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "firebase": "^10.5.2",
-    "svelte-i18n": "^4.0.0",
+    "firebase-tools": "^12.8.0",
     "svelte-fa": "^3.0.4",
+    "svelte-i18n": "^4.0.0",
     "svelte-select": "^5.7.0"
   }
 }

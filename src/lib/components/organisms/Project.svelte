@@ -26,7 +26,7 @@
       <Image
         width="300"
         height="200"
-        className="rounded-100 w-full"
+        class="rounded-100 w-full"
         src={PROJECTS[projectName].logo}
         alt={`${projectName} logo`}
       />

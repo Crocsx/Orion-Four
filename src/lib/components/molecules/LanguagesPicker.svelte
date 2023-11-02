@@ -14,8 +14,8 @@
   }));
 
   function setLanguage(event: { detail: { value: Language; label: string } }) {
-    console.log(event.detail?.value);
     localStorage.setItem('language', event.detail?.value);
+    locale.set(event.detail?.value);
   }
 </script>
 
