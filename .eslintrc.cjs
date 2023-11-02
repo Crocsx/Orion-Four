@@ -1,5 +1,6 @@
 module.exports = {
   root: true,
+  ignorePatterns: ['!/src'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -7,7 +8,7 @@ module.exports = {
     'prettier',
   ],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'unused-imports', 'import'],
   parserOptions: {
     sourceType: 'module',
     ecmaVersion: 2020,
@@ -20,7 +21,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.svelte'],
+      files: ['*.svelte', '*.ts'],
       parser: 'svelte-eslint-parser',
       parserOptions: {
         parser: '@typescript-eslint/parser',
@@ -59,6 +60,50 @@ module.exports = {
           {
             selector: 'typeLike',
             format: ['PascalCase'],
+          },
+        ],
+        'unused-imports/no-unused-imports': 'error',
+        'unused-imports/no-unused-vars': [
+          'warn',
+          {
+            vars: 'all',
+            varsIgnorePattern: '^_',
+            args: 'after-used',
+            argsIgnorePattern: '^_',
+          },
+        ],
+        'import/order': [
+          'error',
+          {
+            pathGroups: [
+              {
+                pattern: '{svelte,svelte/**/*,svelte-*,svelte-*/**/*}',
+                group: 'builtin',
+                position: 'before',
+              },
+              {
+                pattern: '{$env/**,$app/**}',
+                group: 'builtin',
+                position: 'after',
+              },
+              {
+                pattern: '$lib/**',
+                group: 'internal',
+                position: 'before',
+              },
+              {
+                pattern: '{~anyx/app**,~anyx/app**/**}',
+                group: 'internal',
+                position: 'before',
+              },
+            ],
+            pathGroupsExcludedImportTypes: ['svelte', 'svelte/**/*', 'svelte-*', 'svelte-*/**/*'],
+            groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+            'newlines-between': 'always',
+            alphabetize: {
+              order: 'asc',
+              caseInsensitive: true,
+            },
           },
         ],
       },

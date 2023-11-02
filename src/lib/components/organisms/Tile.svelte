@@ -1,10 +1,10 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
 
-  import type { ProjectName } from '$lib/models/projects';
-  import { PROJECTS } from '$lib/constants/projects';
-  import LearnMore from '$lib/components/atoms/LearnMore.svelte';
   import Image from '$lib/components/atoms/Image.svelte';
+  import LearnMore from '$lib/components/atoms/LearnMore.svelte';
+  import { PROJECTS } from '$lib/constants/projects';
+  import type { ProjectName } from '$lib/models/projects';
 
   export let projectName: ProjectName;
   export let position: 'right' | 'center' | 'left' = 'left';

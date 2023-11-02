@@ -1,12 +1,15 @@
 <script lang="ts">
-  import { _ } from 'svelte-i18n';
   import Fa from 'svelte-fa';
+  import { _ } from 'svelte-i18n';
+
+  import { afterNavigate } from '$app/navigation';
+  import { page } from '$app/stores';
+
   import { faBars, faCaretSquareLeft } from '@fortawesome/free-solid-svg-icons';
 
-  import { page } from '$app/stores';
-  import Modal from '$lib/components/organisms/Modal.svelte';
   import Menu from '$lib/components/organisms/Menu.svelte';
-  import { afterNavigate } from '$app/navigation';
+  import Modal from '$lib/components/organisms/Modal.svelte';
+
 
   let isHomepage = true;
   let isMenuOpen = false;

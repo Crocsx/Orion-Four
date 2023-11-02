@@ -1,9 +1,9 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-
   import { _ } from 'svelte-i18n';
-  import Image from '$lib/components/atoms/Image.svelte';
+
   import Profile from '$lib/assets/images/profile.jpg';
+  import Image from '$lib/components/atoms/Image.svelte';
 
   let isMounted = false;
   onMount(() => {

@@ -1,6 +1,4 @@
 <script lang="ts">
-  import { _ } from 'svelte-i18n';
-
   export let flip = true;
   export let color = '#2d3a69';
 

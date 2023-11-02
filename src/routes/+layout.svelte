@@ -4,18 +4,19 @@
   import '../app.css';
 
   import { browser, dev } from '$app/environment';
-  import '$lib/i18n';
-  import Spotify from '$lib/components/molecules/Spotify.svelte';
-  import Header from '$lib/components/organisms/Header.svelte';
-  import Footer from '$lib/components/organisms/Footer.svelte';
-  import { isSupportedLanguage } from '$lib/services/language.service';
-  import { Language } from '$lib/models/languages';
-  import { initFirebase } from '$lib/analytics/firebase';
   import {
     PUBLIC_FIREBASE_API_TOKEN,
     PUBLIC_FIREBASE_PROJECT_ID,
     PUBLIC_FIREBASE_APP_ID,
   } from '$env/static/public';
+
+  import '$lib/i18n';
+  import Spotify from '$lib/components/molecules/Spotify.svelte';
+  import Footer from '$lib/components/organisms/Footer.svelte';
+  import Header from '$lib/components/organisms/Header.svelte';
+  import { initFirebase } from '$lib/external/firebase';
+  import { Language } from '$lib/models/languages';
+  import { isSupportedLanguage } from '$lib/services/language.service';
 
   if (!dev) {
     initFirebase({

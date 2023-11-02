@@ -1,6 +1,6 @@
 <script lang="ts">
-  import type { HTMLImgAttributes } from 'svelte/elements';
   import { onMount } from 'svelte';
+  import type { HTMLImgAttributes } from 'svelte/elements';
 
   interface $$Props extends HTMLImgAttributes {
     src: string;

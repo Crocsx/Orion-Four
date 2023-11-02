@@ -1,9 +1,9 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
 
-  import Social from '$lib/components/molecules/Social.svelte';
   import Contact from '$lib/components/molecules/Contact.svelte';
   import RadarChart from '$lib/components/molecules/RadarChart.svelte';
+  import Social from '$lib/components/molecules/Social.svelte';
 </script>
 
 <section class="block items-center mx-auto pt-12 pb-4 lg:w-3/5 w-5/6">

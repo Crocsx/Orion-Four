@@ -1,11 +1,12 @@
 <script lang="ts">
-  import { _ } from 'svelte-i18n';
-  import { faCaretSquareRight, faCaretSquareLeft } from '@fortawesome/free-solid-svg-icons';
   import Fa from 'svelte-fa';
+  import { _ } from 'svelte-i18n';
+
+  import { faCaretSquareRight, faCaretSquareLeft } from '@fortawesome/free-solid-svg-icons';
 
   import Image from '$lib/components/atoms/Image.svelte';
-  import { getFileType } from '$lib/services/files.service';
   import { FileTypes } from '$lib/models/files';
+  import { getFileType } from '$lib/services/files.service';
 
   export let mediaSrcs: string[] = [];
   export let selectedIndex = 0;

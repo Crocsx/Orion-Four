@@ -10,7 +10,7 @@
   aria-label={$_('i18n.Resume.Download', { default: 'Download Resume' })}
   target="_blank"
   rel="noreferrer"
-  href="assets/download/Giacomini_Federico.pdf"
+  href="/download/Giacomini_Federico.pdf"
 >
   <span class="font-semibold uppercase hidden lg:block"
     >{$_('i18n.Button.Resume', { default: 'Resume' })}</span

@@ -1,6 +1,7 @@
 <script lang="ts">
-  import { _ } from 'svelte-i18n';
   import Fa from 'svelte-fa';
+  import { _ } from 'svelte-i18n';
+
   import { faPhone, faEnvelope, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 </script>
 

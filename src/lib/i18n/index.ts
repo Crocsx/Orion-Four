@@ -1,6 +1,8 @@
-import { browser } from '$app/environment';
-import { Language } from '$lib/models';
 import { init, register } from 'svelte-i18n';
+
+import { Language } from '$lib/models';
+
+import { browser } from '$app/environment';
 
 register(Language.ENGLISH, () => import('./translations/en.json'));
 register(Language.FRENCH, () => import('./translations/fr.json'));

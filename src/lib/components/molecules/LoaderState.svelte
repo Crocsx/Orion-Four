@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Loader from '$lib/components/atoms/Loader.svelte';
   import Error from '$lib/components/atoms/Error.svelte';
+  import Loader from '$lib/components/atoms/Loader.svelte';
   import { LoadingState, LoaderType } from '$lib/models/loading';
 
   export let state: LoadingState = LoadingState.INITIAL;

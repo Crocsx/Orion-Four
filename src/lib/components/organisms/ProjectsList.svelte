@@ -1,9 +1,9 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
 
-  import { ProjectName } from '$lib/models/projects';
   import Project from '$lib/components/organisms/Project.svelte';
   import Tile from '$lib/components/organisms/Tile.svelte';
+  import { ProjectName } from '$lib/models/projects';
 
   const mainProjects = [
     ProjectName.INSANITY,

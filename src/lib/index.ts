@@ -3,5 +3,4 @@ export * from './components';
 export * from './services';
 export * from './constants';
 export * from './models';
-export * from './libs';
-export * from './analytics';
+export * from './external';

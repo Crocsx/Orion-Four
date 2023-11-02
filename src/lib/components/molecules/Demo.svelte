@@ -3,9 +3,8 @@
   import { _ } from 'svelte-i18n';
 
   import LoaderState from '$lib/components/molecules/LoaderState.svelte';
-  import { urlExists } from '$lib/services/url.service';
-
   import { LoadingState } from '$lib/models/loading';
+  import { urlExists } from '$lib/services/url.service';
 
   export let url: string;
   let urlExist = false;
@@ -32,7 +31,7 @@
   {/if}
   {#if urlExist}
     <iframe
-      on:load={(e) => {
+      on:load={() => {
         iframeLoadState = LoadingState.SUCCESS;
       }}
       on:error={() => {

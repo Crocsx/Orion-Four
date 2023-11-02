@@ -1,11 +1,11 @@
 <script lang="ts">
-  import { _ } from 'svelte-i18n';
-  import Fa from 'svelte-fa';
   import { createEventDispatcher } from 'svelte';
+  import Fa from 'svelte-fa';
+  import { _ } from 'svelte-i18n';
+
   import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
   import LanguagesPicker from '$lib/components/molecules/LanguagesPicker.svelte';
-  import type { MouseEventHandler } from 'svelte/elements';
 
   const dispatch = createEventDispatcher();
 

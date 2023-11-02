@@ -1,18 +1,19 @@
 <script lang="ts">
-  import { _ } from 'svelte-i18n';
   import Fa from 'svelte-fa';
+  import { _ } from 'svelte-i18n';
+
   import { faGamepad } from '@fortawesome/free-solid-svg-icons';
 
-  import type { ProjectInfo, ProjectName } from '$lib/models/projects';
-  import { getDeviceWidth } from '$lib/services/breakpoint.service';
-  import { debounce } from '$lib/services/debounce.service';
-  import Modal from '$lib/components/organisms/Modal.svelte';
-  import SlideShow from '$lib/components/molecules/SlideShow.svelte';
   import DiagonalWrapper from '$lib/components/atoms/DiagonalWrapper.svelte';
   import Image from '$lib/components/atoms/Image.svelte';
   import Demo from '$lib/components/molecules/Demo.svelte';
-  import { SKILL_ICONS } from '$lib/constants/skill';
+  import SlideShow from '$lib/components/molecules/SlideShow.svelte';
+  import Modal from '$lib/components/organisms/Modal.svelte';
   import { BREAKPOINTS } from '$lib/constants/breakpoints';
+  import { SKILL_ICONS } from '$lib/constants/skill';
+  import type { ProjectInfo, ProjectName } from '$lib/models/projects';
+  import { getDeviceWidth } from '$lib/services/breakpoint.service';
+  import { debounce } from '$lib/services/debounce.service';
 
   export let projectName: ProjectName;
   export let projectInfo: ProjectInfo;

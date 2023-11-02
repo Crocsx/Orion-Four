@@ -1,13 +1,11 @@
 <script lang="ts">
   import { onMount } from 'svelte';
 
-  import type { RadarChartOptions } from '$lib/libs/radarChart';
-  import { RadarChart } from '$lib/libs/radarChart';
   import { SKILL_ICONS } from '$lib/constants/skill';
+  import { type RadarChartOptions, RadarChart } from '$lib/external/radarChart';
   import { Skill } from '$lib/models/skill';
 
   let canvas: HTMLCanvasElement;
-  let chartRef: RadarChart;
   onMount(async () => {
     const radarData: RadarChartOptions = {
       labels: [],
@@ -45,7 +43,7 @@
       img.src = label;
       radarData.labels.push(img);
     });
-    chartRef = new RadarChart(radarData);
+    new RadarChart(radarData);
   });
 </script>
 
