@@ -25,7 +25,7 @@
 </script>
 
 <div class="bg-blue-7 text-center pb-4 pt-12 px-8 rounded w-full">
-  <h2 class="text-xl tracking-widest pb-4 border-b-2 mb-4 border-white border-opacity-10">
+  <h2 class="text-xl tracking-widest pb-4 border-b-2 mb-4 border-white border-opacity-80">
     {$_(`i18n.Menu.Teleport`, { default: 'Teleport' })}
   </h2>
   <nav class="pb-4">
@@ -45,7 +45,7 @@
       href="/#about">{$_(`i18n.Menu.AboutMe`, { default: 'About Me' })}</a
     >
     <a
-      class="flex justify-center items-center border border-blue-7 rounded py-2 px-4 hover:bg-blue-8 text-white"
+      class="flex justify-center items-center border border-blue-7 rounded py-2 px-4 hover:bg-blue-7 text-white"
       target="_blank"
       href="https://crocsx.hashnode.dev/"
       >{$_(`i18n.Menu.Blog`, { default: 'Blog' })}

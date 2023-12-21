@@ -10,7 +10,6 @@
   import Menu from '$lib/components/organisms/Menu.svelte';
   import Modal from '$lib/components/organisms/Modal.svelte';
 
-
   let isHomepage = true;
   let isMenuOpen = false;
 
@@ -41,7 +40,7 @@
   class="z-50 fixed w-full px-4 py-2 duration-200 transition-background-color ease-in-out justify-between flex items-center opacity-95 {scrollY <
     screenSizeY && isHomepage
     ? 'bg-transparent'
-    : 'bg-blue-1'}"
+    : 'bg-blue-2'}"
 >
   <h1
     class="text-sm md:text-base duration-200 transition-opacity ease-in-out {scrollY <

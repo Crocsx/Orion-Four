@@ -28,7 +28,7 @@
   <button
     aria-label={$_('i18n.Playlist.ButtonLabel', { default: 'Show Playlist' })}
     on:click={toggleMusic}
-    class="focus:outline-none bg-blue-2 hover:bg-blue-1 fixed border border-b-0 transform -translate-y-full rounded-tr-lg p-2 flex justify-center items-center"
+    class="focus:outline-none bg-blue-2 her:bg-blue-2 fixed border border-b-0 transform -translate-y-full rounded-tr-lg p-2 flex justify-center items-center"
   >
     <Fa class="lg:mr-2 lg:ml-0 mx-2" icon={faMusic} /><span
       class="font-semibold uppercase hidden lg:block"

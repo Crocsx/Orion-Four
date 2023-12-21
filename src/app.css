@@ -20,19 +20,19 @@
   }
 
   @font-face {
-    font-family: 'Pacifico';
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    src: local('Pacifico Regular'), local('Pacifico-Regular');
+    src: local('Raleway Regular'), local('Raleway-Regular');
     font-display: swap;
   }
 
   ::-webkit-scrollbar {
-    @apply bg-blue-1 h-2 w-2 rounded;
+    @apply bg-blue-2 h-2 w-2 rounded;
   }
 
   ::-webkit-scrollbar-thumb {
-    @apply bg-blue-3 rounded;
+    @apply bg-blue-8 rounded;
   }
 
   .list-item {

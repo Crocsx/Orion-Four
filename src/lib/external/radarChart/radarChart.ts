@@ -124,7 +124,7 @@ export class RadarChart {
       return;
     }
     this.canvasContextRef.save();
-    this.canvasContextRef.lineWidth = 0.5;
+    this.canvasContextRef.lineWidth = 1.5;
     this.canvasContextRef.beginPath();
     for (let i = 0; i < this.labels.length; i++) {
       this.canvasContextRef.moveTo(0, 0);
@@ -141,7 +141,7 @@ export class RadarChart {
       return;
     }
     this.canvasContextRef.save();
-    this.canvasContextRef.lineWidth = 0.2;
+    this.canvasContextRef.lineWidth = 1;
     const step = this.chartSize / 2 / this.precision;
     for (let i = 1; i < this.precision + 1; i++) {
       this.canvasContextRef.beginPath();

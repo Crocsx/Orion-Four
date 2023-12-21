@@ -6,7 +6,7 @@
 </script>
 
 <a
-  class="focus:outline-none bg-blue-2 hover:bg-blue-1 border border-b-0 transform fixed bottom-0 right-0 rounded-tl-lg p-2 flex justify-center items-center"
+  class="focus:outline-none bg-blue-2 hover:bg-blue-2 border border-b-0 transform fixed bottom-0 right-0 rounded-tl-lg p-2 flex justify-center items-center"
   aria-label={$_('i18n.Resume.Download', { default: 'Download Resume' })}
   target="_blank"
   rel="noreferrer"

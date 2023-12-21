@@ -53,7 +53,7 @@
     >
       {$_(`i18n.Project.${projectName}.Title`, { default: projectName })}
     </h2>
-    <p class="lg:text-base text-xs tracking-widest uppercase font-extralight leading-loose">
+    <p class="lg:text-base text-xs tracking-widest uppercase leading-loose">
       {$_(`i18n.Project.${projectName}.CatchPhrase`, { default: `${projectName} Catch Phrase` })}
     </p>
     <small class="mb-8">

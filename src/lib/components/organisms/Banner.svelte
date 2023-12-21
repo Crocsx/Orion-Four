@@ -32,7 +32,7 @@
     </h2>
     <p
       style={isMounted ? 'opacity: 100;' : ''}
-      class="opacity-0 transition-opacity duration-1000 md:text-xl lg:text-base text-xs tracking-widest uppercase font-extralight leading-loose"
+      class="opacity-0 transition-opacity duration-1000 md:text-xl lg:text-base text-xs tracking-widest uppercase leading-loose"
     >
       {$_('i18n.Banner.Catch', { default: 'Game Developer & Designer - UI Developer' })}
     </p>

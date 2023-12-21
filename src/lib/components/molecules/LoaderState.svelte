@@ -11,7 +11,7 @@
 
 <div
   style="width: {sizeX}; height: {sizeY};"
-  class="{state === LoadingState.SUCCESS ? 'hidden' : ''} absolute bg-blue-1"
+  class="{state === LoadingState.SUCCESS ? 'hidden' : ''} absolute bg-blue-2"
 >
   {#if state === LoadingState.INITIAL || state === LoadingState.LOADING}
     <Loader {type} />

@@ -53,14 +53,14 @@
     <div class="m-auto h-1/2 absolute inset-0 hidden md:flex">
       <button class="flex items-center justify-start w-1/2" on:click={goPrevious}>
         <div
-          class="p-2 h-full flex items-center hover:bg-blue-1 hover:bg-opacity-30 cursor-pointer"
+          class="p-2 h-full flex items-center hover:bg-blue-2 hover:bg-opacity-30 cursor-pointer"
         >
           <Fa size="2x" icon={faCaretSquareLeft} />
         </div>
       </button>
       <button class="flex items-center justify-end w-1/2" on:click={goNext}>
         <div
-          class="p-2 h-full flex items-center hover:bg-blue-1 hover:bg-opacity-30 cursor-pointer"
+          class="p-2 h-full flex items-center hover:bg-blue-2 hover:bg-opacity-30 cursor-pointer"
         >
           <Fa size="2x" icon={faCaretSquareRight} />
         </div>

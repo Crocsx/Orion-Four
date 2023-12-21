@@ -32,10 +32,11 @@
 
 <style>
   .themed {
-    --selected-item-color: #2e3141;
-    --item-color: #2e3141;
-    --item-hover-color: #2e3141;
-    --item-active-background: #555867;
+    --selected-item-color: #2c4279;
+    --item-color: #2c4279;
+    --item-hover-color: #2c4279;
+    --item-active-background: #5f7bd6;
+    --item-is-active-bg: #5f7bd6;
     --item-is-active-color: white;
     --group-title-font-weight: 600;
   }
