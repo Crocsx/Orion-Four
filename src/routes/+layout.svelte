@@ -1,5 +1,6 @@
 <script lang="ts">
   import { locale } from 'svelte-i18n';
+  import { onMount } from 'svelte';
 
   import '../app.css';
 
@@ -17,6 +18,12 @@
   import { initFirebase } from '$lib/external/firebase';
   import { Language } from '$lib/models/languages';
   import { isSupportedLanguage } from '$lib/services/language.service';
+  import WrapperLoader from '$lib/components/atoms/WrapperLoader.svelte';
+
+
+  let loading = true;
+  onMount(() => loading = false);
+
 
   if (!dev) {
     initFirebase({
@@ -37,9 +44,11 @@
   }
 </script>
 
-<main>
-  <Header />
-  <slot />
-  <Footer />
-  <Spotify />
+<main>   
+  <WrapperLoader isLoading={loading}>
+    <Header />
+    <slot />
+    <Footer />
+    <Spotify />
+  </WrapperLoader>
 </main>
