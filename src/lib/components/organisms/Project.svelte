@@ -2,7 +2,7 @@
   import { _ } from 'svelte-i18n';
 
   import DiagonalWrapper from '$lib/components/atoms/DiagonalWrapper.svelte';
-  import Image from '$lib/components/atoms/Image.svelte';
+
   import LearnMore from '$lib/components/atoms/LearnMore.svelte';
   import { PROJECTS } from '$lib/constants/projects';
   import type { ProjectName } from '$lib/models/projects';
@@ -23,9 +23,7 @@
         ? 'ml-12'
         : 'mr-12 '}"
     >
-      <Image
-        width="300"
-        height="200"
+      <enhanced:img
         class="rounded-100 w-full"
         src={PROJECTS[projectName].logo}
         alt={`${projectName} logo`}

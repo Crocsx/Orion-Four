@@ -1,7 +1,7 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
 
-  import Image from '$lib/components/atoms/Image.svelte';
+
   import LearnMore from '$lib/components/atoms/LearnMore.svelte';
   import { PROJECTS } from '$lib/constants/projects';
   import type { ProjectName } from '$lib/models/projects';
@@ -17,9 +17,7 @@
       : 'lg:ml-8'
     : 'lg:mx-4'}"
 >
-  <Image
-    width="300"
-    height="200"
+  <enhanced:img
     class="image mb-4 w-full"
     src={PROJECTS[projectName].logo}
     alt={`${projectName} logo`}

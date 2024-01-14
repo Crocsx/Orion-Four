@@ -4,7 +4,7 @@
 
   import { faCaretSquareRight, faCaretSquareLeft } from '@fortawesome/free-solid-svg-icons';
 
-  import Image from '$lib/components/atoms/Image.svelte';
+
   import { FileTypes } from '$lib/models/files';
   import { getFileType } from '$lib/services/files.service';
 
@@ -35,8 +35,8 @@
           ? 'hidden'
           : 'visible'}"
       >
-        {#if getFileType(media) === FileTypes.IMAGE}
-          <Image width="300" height="200" src={media} class="w-11/12" alt="Project Illustration" />
+        {#if typeof media === "object" || getFileType(media) === FileTypes.IMAGE}
+          <enhanced:img  src={media} class="w-11/12" alt="Project Illustration" />
         {:else}
           <video controls>
             <source src={media} type="video/mp4" />

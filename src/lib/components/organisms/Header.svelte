@@ -32,6 +32,7 @@
     }
     previousRoute = $page.url.pathname;
   });
+
 </script>
 
 <svelte:window bind:scrollY bind:innerHeight={screenSizeY} bind:innerWidth={screenSizeX} />

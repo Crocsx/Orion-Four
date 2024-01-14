@@ -2,8 +2,7 @@
   import { onMount } from 'svelte';
   import { _ } from 'svelte-i18n';
 
-  import Profile from '$lib/assets/images/profile.jpg';
-  import Image from '$lib/components/atoms/Image.svelte';
+  import Profile from '$lib/assets/images/profile.jpg?enhanced';
 
   let isMounted = false;
   onMount(() => {
@@ -14,9 +13,7 @@
 <section class="h-screen lg:pb-16 md:pt-40 lg:px-0 pt-20 pb-8 px-8">
   <div class="mx-0 lg:mx-auto lg:w-4/6 max-w-4xl">
     <div class="mb-5">
-      <Image
-        width="300"
-        height="300"
+      <enhanced:img
         class={`${
           isMounted ? 'opacity-1' : 'opacity-0'
         } transition-opacity duration-500 rounded-full w-72 profile`}

@@ -5,12 +5,12 @@
   import { faGamepad } from '@fortawesome/free-solid-svg-icons';
 
   import DiagonalWrapper from '$lib/components/atoms/DiagonalWrapper.svelte';
-  import Image from '$lib/components/atoms/Image.svelte';
+
   import Demo from '$lib/components/molecules/Demo.svelte';
   import SlideShow from '$lib/components/molecules/SlideShow.svelte';
   import Modal from '$lib/components/organisms/Modal.svelte';
   import { BREAKPOINTS } from '$lib/constants/breakpoints';
-  import { SKILL_ICONS } from '$lib/constants/skill';
+  import { SKILL_ICONS, SKILL_ICONS_OPTIMIZED } from '$lib/constants/skill';
   import type { ProjectInfo, ProjectName } from '$lib/models/projects';
   import { getDeviceWidth } from '$lib/services/breakpoint.service';
   import { debounce } from '$lib/services/debounce.service';
@@ -65,9 +65,7 @@
       {#if isMobile}
         {#each projectInfo.illustrationSmall as illustrationSrc, i}
           <button on:click={() => openSlideshowModal(i)} class="w-full rounded px-4 cursor-pointer">
-            <Image
-              width="300"
-              height="200"
+            <enhanced:img
               src={illustrationSrc}
               alt="logo"
               class="w-full h-full rounded-lg"
@@ -133,10 +131,8 @@
       </h2>
       <div class="flex">
         {#each projectInfo.madeWith as skill, i}
-          <Image
-            width="48"
-            height="48"
-            src={SKILL_ICONS[skill]}
+          <enhanced:img
+            src={SKILL_ICONS_OPTIMIZED[skill]}
             alt="logo"
             class="w-12 h-12 rounded-lg {i > 0 ? 'ml-2' : ''}"
           />
