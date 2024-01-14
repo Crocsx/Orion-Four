@@ -11,7 +11,7 @@
 </script>
 
 <article
-  class="relative rounded-lg overflow-hidden bg-blue-2 my-4 {position !== 'center'
+  class="relative rounded-lg overflow-hidden bg-blue-4 my-4 {position !== 'center'
     ? position !== 'right'
       ? 'lg:mr-8'
       : 'lg:ml-8'

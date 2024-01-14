@@ -20,7 +20,7 @@
       "Menu": "Menu",
       "Back": "Retour",
       "LearnMore": "En Savoir Plus",
-      "MoreAbout": "En Savoir Plus Sur {subject}"
+      "LearnMoreAbout": "En Savoir Plus - {subject}"
     },
     "Banner": {
       "Name": "Giacomini Federico",

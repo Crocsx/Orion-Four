@@ -10,12 +10,12 @@
 
 <a
   href={link}
-  aria-label={$_('i18n.Button.MoreAbout', { default: 'More About', values: { subject } })}
+  aria-label={$_('i18n.Button.LearnMoreAbout', { default: 'Learn More -', values: { subject } })}
 >
   <div class="transition-opacity duration-200 hover:opacity-80 flex items-center">
     <Fa class=" ml-4 uppercase font-bold text-sm" size="lg" icon={faChevronCircleRight} />
     <span class="ml-4 uppercase font-bold text-sm"
-      >{$_('i18n.Button.LearnMore', { default: 'More' })}</span
+      >{$_('i18n.Button.LearnMore', { default: 'Learn More' })}</span
     >
   </div>
 </a>
