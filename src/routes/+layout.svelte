@@ -18,12 +18,6 @@
   import { initFirebase } from '$lib/external/firebase';
   import { Language } from '$lib/models/languages';
   import { isSupportedLanguage } from '$lib/services/language.service';
-  import WrapperLoader from '$lib/components/atoms/WrapperLoader.svelte';
-
-
-  let loading = true;
-  onMount(() => loading = false);
-
 
   if (!dev) {
     initFirebase({
@@ -45,10 +39,8 @@
 </script>
 
 <main>   
-  <WrapperLoader isLoading={loading}>
-    <Header />
-    <slot />
-    <Footer />
-    <Spotify />
-  </WrapperLoader>
+  <Header />
+  <slot />
+  <Footer />
+  <Spotify />
 </main>

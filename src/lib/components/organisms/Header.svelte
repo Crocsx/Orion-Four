@@ -10,7 +10,7 @@
   import Menu from '$lib/components/organisms/Menu.svelte';
   import Modal from '$lib/components/organisms/Modal.svelte';
 
-  let isHomepage = true;
+  let isHomepage = $page.url.pathname === '/';
   let isMenuOpen = false;
 
   function openMenu() {

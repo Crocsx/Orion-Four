@@ -14,6 +14,7 @@
     href="https://goo.gl/maps/gYqeHnonb7fnsaSt6"
     class="ml-4"
   >
+    <small class="fz">{$_('i18n.Contact.WorkAddress', { default: 'Work Address' })}</small><br />
     AnyMind Group <br />
     31/F Roppongi Hills Mori Tower, <br />
     6-10-1, 10 Roppongi, Minato City, <br />
@@ -26,7 +27,9 @@
     aria-label={$_('i18n.Contact.PhoneNumber', { default: 'Phone Number' })}
     target="_blank"
     class="ml-4"
-    href="tel:+8170-4148-5959">+8170-4148-5959</a
+    href="tel:+8170-4148-5959">
+    <small>{$_('i18n.Contact.PhoneNumber', { default: 'Phone Number' })}</small><br />
+    +8170-4148-5959</a
   >
 </div>
 <div class="flex mb-8 items-center">
@@ -35,6 +38,7 @@
     aria-label={$_('i18n.Contact.EmailAddress', { default: 'Email Address' })}
     target="_blank"
     class="ml-4"
-    href="mailto:federicogiacomini@outlook.com">federicogiacomini@outlook.com</a
+    href="mailto:federicogiacomini@outlook.com"><small>{$_('i18n.Contact.EmailAddress', { default: 'Email Address' })}</small><br />
+    federicogiacomini@outlook.com</a
   >
 </div>
